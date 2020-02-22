@@ -13,6 +13,8 @@ img{max-width: 100;}
     background: grey;
     display: inline-block;
     float: left;
+    margin-top: 8px;
+    margin-left: 10px;
 
 }
 .logo>img{
@@ -21,14 +23,40 @@ img{max-width: 100;}
 }
 .nav{
     float: left;
+    margin-left: 20px;
 }
 
 ul>li {
     float: left;
-    border:1px solid red;
-    padding: 4px 0.3em;
+    padding: 4px 0.5em;
+    line-height: 32px;
 }
 ul{
-    border: 1px solid green;
     display: inline-block
+}
+header{
+    background: grey;
+    color: white;
+}
+.content{
+    outline: 1px solid red;
+    width: 800px;
+}
+.content>aside{
+    width: 200px;
+    border: 1px solid green;
+    height: 300px;
+    float: left;
+}
+.content>main{
+    border: 1px solid purple;
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+.content>.ad{
+    width: 110px;
+    border: 1px solid black;
+    height: 300px;
+    float: left;
 }
